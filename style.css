@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('dentista-hero.jpg') no-repeat center center/cover;
+    background: url('imagem/banner.jpg') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -59,6 +59,17 @@ nav a:hover {
 
 .content h3 {
     color: #0077cc;
+}
+
+.service-limpeza{
+    background-image: url(imagem/limpeza\ dental.jpg) no-repeat center center/cover;
+}
+
+.service-implante{
+    background-image: url() no-repeat center center/cover;
+}
+.service-ortodontia{
+    background-image: url(imagem/ortodontia.jpg) no-repeat center center/cover;
 }
 
 .services {
