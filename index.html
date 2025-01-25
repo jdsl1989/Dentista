@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">Clínica Sorriso Saudável</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#services" class="hover:underline">Serviços</a></li>
+                    <li><a href="#about" class="hover:underline">Sobre Nós</a></li>
+                    <li><a href="#contact" class="hover:underline">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-12 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Seu Sorriso, Nossa Missão</h2>
+            <p class="text-lg mb-6">Oferecemos o melhor cuidado odontológico para toda a família.</p>
+            <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Agende uma consulta</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Nossos Serviços</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h4 class="text-xl font-semibold mb-2">Limpeza Dentária</h4>
+                    <p>Remova o tártaro e mantenha seu sorriso saudável.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h4 class="text-xl font-semibold mb-2">Clareamento</h4>
+                    <p>Deixe seus dentes mais brancos e brilhantes.</p>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h4 class="text-xl font-semibold mb-2">Ortodontia</h4>
+                    <p>Alinhe seus dentes com os melhores tratamentos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-100 py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Sobre Nós</h3>
+            <p class="text-lg">Nossa clínica tem mais de 10 anos de experiência cuidando de sorrisos. Contamos com uma equipe qualificada e tecnologias de ponta para garantir o melhor atendimento.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-8">Entre em Contato</h3>
+            <p class="mb-4">Agende sua consulta ou tire suas dúvidas.</p>
+            <form class="max-w-md mx-auto bg-white p-6 shadow-md rounded-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-left font-semibold mb-1">Nome</label>
+                    <input type="text" id="name" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left font-semibold mb-1">E-mail</label>
+                    <input type="email" id="email" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-left font-semibold mb-1">Mensagem</label>
+                    <textarea id="message" rows="4" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Clínica Sorriso Saudável. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
