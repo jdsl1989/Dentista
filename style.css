@@ -63,13 +63,19 @@ nav a:hover {
 
 .service-limpeza{
     background-image: url(imagem/limpeza\ dental.jpg) no-repeat center center/cover;
+    box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+    text-align: center;
 }
 
 .service-implante{
-    background-image: url() no-repeat center center/cover;
+    background-image: url(imagem/implantes.jpg) no-repeat center center/cover;
+    box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+    text-align: center;
 }
 .service-ortodontia{
     background-image: url(imagem/ortodontia.jpg) no-repeat center center/cover;
+    box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+    text-align: center;
 }
 
 .services {
@@ -83,11 +89,12 @@ nav a:hover {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
-    transition: box-shadow 0.3s;
+    transition: box-shadow 1.3s;
 }
 
 .service:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
 .service img {
