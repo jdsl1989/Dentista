@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #0077cc;
+    background-color: #0a0a0a;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('imagem/banner.jpg') no-repeat center center/cover;
+    background: url('imagem/logo.jpeg') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -112,4 +112,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+span{
+    font-weight: bold;
 }
